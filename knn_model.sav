@@ -1,0 +1,7 @@
+# model.py
+import joblib
+
+def load_model():
+    # sesuaikan nama file model di sini
+    model = joblib.load("knn_model.sav")
+    return model
